@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '1.0.0.dev9'
+version = '1.0.0.dev10'
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
@@ -13,7 +13,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Medan-rfz",
     license="MIT License",
-    url="https://github.com/Medan-rfz/certbot-beget-plugin",
+    url="https://github.com/Medan-rfz/certbot-dns-beget-api/tree/1.0.0.dev10",
     packages=find_packages(),
     install_requires=[
         "certbot",
